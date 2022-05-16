@@ -1,4 +1,4 @@
-class Solution: # backtracking solution
+class Solution: # backtracking solution (works for 46-Permutations too)
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         # create a map of all digits in nums, 
         # we want unique permutations but there are duplicates!
